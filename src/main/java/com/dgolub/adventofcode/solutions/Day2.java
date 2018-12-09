@@ -22,8 +22,7 @@ public class Day2 {
             for (int i = 0; i < alphabet.length; i++) {
                 if (alphabet[i] == 2) {
                     internalTwice = 1;
-                }
-                if (alphabet[i] == 3) {
+                } else if (alphabet[i] == 3) {
                     internalThrice = 1;
                 }
             }
